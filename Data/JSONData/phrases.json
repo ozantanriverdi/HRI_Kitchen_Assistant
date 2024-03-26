@@ -1,0 +1,95 @@
+{
+  "greeting": [
+    "Welcome to the kitchen! How can I assist you today?",
+    "Good morning! Ready to cook up something delicious?",
+    "Hello there! What culinary adventure shall we embark on today?",
+    "Greetings! Let's whip up some magic in the kitchen, shall we?",
+    "Hey! Ready to create some mouthwatering dishes together?",
+    "Hi there! Let's make your cooking experience extraordinary!",
+    "Welcome! Get ready to explore a world of flavors and aromas!",
+    "Good day! Let's turn your kitchen into a culinary playground!",
+    "Hello! Let's make cooking fun and effortless for you!",
+    "Hey, chef! Let's create culinary masterpieces together!",
+    "Welcome to your smart kitchen!",
+    "Good to see you in the kitchen!",
+    "Hello! How can I assist you today?",
+    "Greetings! What can I help you with?",
+    "Hi there! Ready to cook up something delicious?",
+    "Welcome back! What's on the menu today?",
+    "Hey! How can I make your cooking experience better?",
+    "Good day! How can I assist you in the kitchen?",
+    "Hello! Let's make some magic in the kitchen!",
+    "Hi! What culinary adventure are we embarking on today?",
+    "Welcome! How can I assist you with your cooking?",
+    "Greetings! Let's create some culinary masterpieces together!",
+    "Hello there! What delicious dish are we preparing today?",
+    "Hi! Ready to explore new recipes in the kitchen?",
+    "Welcome back! How can I make your cooking experience more enjoyable?",
+    "Good to see you! What can I help you cook today?",
+    "Hello! Let's turn your kitchen into a gourmet paradise!",
+    "Hi there! How can I assist you in the culinary world?",
+    "Welcome! Let's make cooking a breeze!",
+    "Greetings! What deliciousness can I help you create today?"
+  ],
+  "not_recognized": [
+    "I'm sorry, I didn't quite catch that. Could you please repeat?",
+    "Apologies, I didn't understand what you said. Can you please rephrase?",
+    "I'm sorry, I couldn't comprehend your message. Can you please clarify?",
+    "Oops! It seems like I didn't get that. Could you please say it again?",
+    "I'm sorry, but I'm having trouble understanding your request. Can you please try again?"
+  ],
+  "confirmation": [
+    "Understood! I'll get right on it.",
+    "Got it! I'll start working on that.",
+    "Noted! I'll take care of it for you.",
+    "Message received! I'll handle the task.",
+    "Confirmed! I'll proceed with the request."
+  ],
+  "afk": [
+    "It seems like there has been no activity for a while. Please shut me off if I'm not needed.",
+    "I've been idle for some time. If I'm not necessary, please turn me off.",
+    "It's been quiet for a while. Please shut me off if I'm not being used.",
+    "Inactivity detected. Please turn me off if I'm not needed to conserve energy."
+  ],
+  "no_spices": [
+    "I sadly couldn't recognize any spices that I have in your sentence. Would you like to try one from your current stock?",
+    "It seems that you didn't name any spices from my database. Can you select from your spice rack?",
+    "I couldn't find that spice. Would you please try another one that you already have?"
+  ],
+  "multiple_spices": [
+    "You named multiple spices. Can you please specify one at a time?",
+    "It looks like you mentioned a few spices. Could you focus on just one for now?",
+    "I'm getting a bit mixed up with all those spices! Can you tell me one at a time?"
+  ],
+  "no_amount": [
+    "I couldn't understand the amount of the {spice} you mentioned. Can you please clarify?",
+    "I'm not quite sure I caught the amount of {spice} you need. Could you repeat that for me?",
+    "Could you please say the {spice} measurement again? I want to make sure I get it right."
+  ],
+  "multiple_amounts": [
+    "You have provided multiple amounts for {spice} therefoe I am confused. Can you please specify one at a time?",
+    "It seems like you might have given me a few different measurements for {spice}. Could you please tell me the exact amount you'd like to use?",
+    "I'm getting a little mixed up with the amounts of {spice}. Can you focus on one measurement at a time?"
+  ],
+  "spice_and_amount": [
+    "Adding {amount} of {spice} to the dish."
+  ],
+  "scan_spices": [
+    "I can help you with that! Going to scan for spices now.",
+    "Sure! I'll scan your spice rack for you.",
+    "No problem! I'll scan your spice collection for you."
+  ],
+  "no_scanned_spices": [
+    "I couldn't find any spices in your collection. Please make sure your spices are in view of the camera.",
+    "It seems like I couldn't find any spices. Please ensure that your spices are visible to the camera.",
+    "I'm sorry, but I couldn't find any spices. Please make sure your spices are in view of the camera."
+  ],
+  "no_amount_custom":[
+    "I couldn't understand the amount you stated for the measurement unit you mentioned. Can you please try again?"
+  ],
+  "stuck" : [
+    "I am stuck, please reset me to my default position"
+  ]
+
+
+}

@@ -64,7 +64,7 @@ def callback3(data):
     data = json.loads(data.data)
     rospy.loginfo("\nfeedBack.stuck RECEIVED = " + str(data))
     if 'stuck' in data.keys() and data['stuck'] == 'True':
-        inputClassifier.handelStuck()
+        inputClassifier.handleStuck()
 
 
 if __name__ == '__main__':

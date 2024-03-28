@@ -11,6 +11,7 @@ from pathlib import Path
 TAGSPATH = os.path.join(sys.path[0], '..', '..', 'Data', 'JSONData', 'tags.json')
 REFERENCE_ROBOT_DIFF = [0.1, 0, 0,1]
 SPICE_TAG_DIFF = [0, 0, 0]
+CAM_PARAMS = [640, 640, 320, 240]
 CAMADJUSTER = 1
 TAGFAMILY = 'tag16h5'
 
@@ -65,7 +66,7 @@ class Scanner():
     
     def handleFrame(self, frame):
         scannedTags = []
-        tags = self.detector.detect(frame, True, [640, 640, 320, 240], 0.03)
+        tags = self.detector.detect(frame, True, CAM_PARAMS, 0.03)
         # print('valid: ', self.validTagsList)
         # print('tags:')
         for tag in tags:

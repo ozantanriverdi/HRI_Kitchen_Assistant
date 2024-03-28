@@ -21,7 +21,7 @@ class Classifier:
                     print(f"spice: {data['spices'][spiceIndex]} coord: {data['coords'][coordIndex]}")
                     print(self.spicesAndCoords)
     
-    def handelStuck(self):
+    def handleStuck(self):
         self.ttsModule.react('stuck')
     
 
